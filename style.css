@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.post {
+    background-color: rgb(117, 117, 214);
+    width: 600px;
+    height: fit-content;
+
+}
+.post-header {
+    display: flex;
+    height: 50px;
+    align-items: center;
+
+}
+.post-body {
+    display: flex;
+    flex-direction: column;
+}
+.post-icons {
+    display: flex;
+    height: 50px;
+}
+#icon-tothe-right {
+    margin-left: 80%;
+}
+img {
+    height: 500px;
+    width: 600px;
+}
+.icon {
+    height: 5px;
+    width: 5px;
+}
