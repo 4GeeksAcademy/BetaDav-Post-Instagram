@@ -3,7 +3,6 @@ body{
     justify-content: center;
 }
 .post {
-    background-color: rgb(117, 117, 214);
     width: 600px;
     height: fit-content;
 
@@ -17,19 +16,30 @@ body{
 .post-body {
     display: flex;
     flex-direction: column;
+    margin: 20px;
 }
 .post-icons {
     display: flex;
-    height: 50px;
+    align-items: center;
+    justify-content: center;
 }
-#icon-tothe-right {
+.icon-to-the-right {
+    margin-left: 72%;
+    font-size: 30px;
+}
+.second-icon-to-the-right{
     margin-left: 80%;
+    font-size: 30px;
 }
 img {
     height: 500px;
     width: 600px;
 }
-.icon {
-    height: 5px;
-    width: 5px;
+.icons {
+    margin-left: 10px;
+    font-size: 30px;
+}
+.icons-body {
+    margin-left: 5px;
+    font-size: 30px;
 }
